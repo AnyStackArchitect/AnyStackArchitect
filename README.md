@@ -1,54 +1,25 @@
 # Eric Black
 
-**Infrastructure Architect | Disaster Recovery & Cyber Resilience | Technical Author**
+I'm an infrastructure architect and technical author with more than 15 years of experience in enterprise infrastructure, disaster recovery, cyber resilience, and private and hybrid cloud. I design and implement systems, troubleshoot failures, and stay involved through operational handoff.
 
-I’m an infrastructure architect, technical leader, and author with more than 15 years of experience across enterprise infrastructure, disaster recovery, cyber resilience, private and hybrid cloud, and data protection.
+When I look at a recovery plan, I want to know how the application starts, which identity, network, and storage services it needs, and who will bring it back. A recovery test should show whether those dependencies work together and whether the service can meet its recovery objectives.
 
-My work spans the full infrastructure lifecycle, from discovery and architecture through implementation, troubleshooting, recovery validation, and operational handoff.
+## What I work on
 
-I’m particularly interested in the gap between a design that looks correct on paper and one that survives real production failures. Recovery objectives matter, but so do application dependencies, identity, networking, storage, operational ownership, and the ability to prove that a service can actually be recovered.
+Backup and recovery architecture is a large part of my work, including DRaaS, BaaS, recovery testing, failover and failback, immutable storage, and ransomware resilience. I work through RPO and RTO requirements alongside the application dependencies and operational steps needed to recover a service.
 
-## Areas of focus
+My infrastructure work covers VMware, Hyper-V, Nutanix AHV, Proxmox VE, Kubernetes, and OpenShift. It also includes enterprise compute, SAN/NAS and object storage, Linux and Windows, capacity planning, and performance troubleshooting.
 
-### Disaster recovery and cyber resilience
+I use PowerShell, Python, Go, TypeScript, React, REST APIs, and Model Context Protocol integrations to build tools for infrastructure operations. I focus on inspection, troubleshooting, automation, and recovery validation.
 
-Backup and recovery architecture, DRaaS, BaaS, recovery testing, failover and failback, immutable storage, ransomware resilience, and practical RPO/RTO validation.
+I also lead architecture reviews, mentor engineers, and handle technical escalations. I stay involved through implementation and operational handoff, including the documentation and validation the operations team needs to support the system.
 
-### Private cloud and virtualization
+Before settling on a design, I want the dependencies, sizing assumptions, limitations, and failure conditions written down. For changes that can destroy data or interrupt a service, I favor safe inspection, dry runs, and explicit validation. I include security requirements, repeatable procedures, and recovery tests in the design.
 
-Architecture and operational engineering across VMware, Microsoft Hyper-V, Nutanix AHV, Proxmox VE, Kubernetes, OpenShift, and heterogeneous infrastructure environments.
+## Writing
 
-### Infrastructure and storage
+I publish articles and field guides at [AnyStackArchitect.com](https://www.anystackarchitect.com/). I write about infrastructure, backup and recovery, virtualization, Kubernetes, storage, and the problems engineers encounter when they operate these systems.
 
-Enterprise compute, SAN/NAS, object storage, Linux and Windows infrastructure, capacity planning, performance investigation, and complex platform dependencies.
+I've authored field guides covering Veeam Backup & Replication, Hyper-V clusters, Nutanix AHV, and Proxmox VE. I write for engineers who need to understand how a system works, where it can fail, and what recovery requires.
 
-### Automation and software engineering
-
-PowerShell, Python, Go, TypeScript, React, REST APIs, automation frameworks, and Model Context Protocol integrations. My focus is on tooling that makes infrastructure easier to understand, operate, troubleshoot, and validate.
-
-### Technical leadership
-
-Architecture reviews, engineering mentorship, technical escalation, operational leadership, and connecting solution design with implementation and day-two supportability.
-
-## Technical writing
-
-I publish technical articles and field guides through AnyStackArchitect.
-
-My writing covers infrastructure architecture, backup and recovery, virtualization, cyber resilience, Kubernetes, storage, and the operational realities of enterprise technology.
-
-I’ve authored technical field guides covering Veeam Backup & Replication, Hyper-V clusters, Nutanix AHV, and Proxmox VE.
-
-The goal is straightforward: useful technical material that helps engineers understand what they’re building, why it works, where it can fail, and how to recover it.
-
-## Engineering approach
-
-* Understand the dependencies before committing to the design.
-* Make sizing assumptions, limitations, and failure conditions visible.
-* Favor safe inspection, dry runs, and explicit validation before destructive operations.
-* Test recovery behavior rather than assuming a successful backup means a successful recovery.
-* Treat documentation, repeatability, security, and operational handoff as engineering requirements.
-
-## Connect
-
-* [AnyStackArchitect.com](https://www.anystackarchitect.com/)
-* [LinkedIn](https://www.linkedin.com/in/eb999/)
+[LinkedIn](https://www.linkedin.com/in/eb999/)
